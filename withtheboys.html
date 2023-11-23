@@ -2,9 +2,11 @@
 <head>
     <title>WithTheBoysPodcast</title>
     <link rel="stylesheet" href="withtheboys.css">
+    <link href='https://fonts.googleapis.com/css?family=Permanent Marker' rel='stylesheet'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ultra" />
 </head>
 <body>
-    <div class="main">
+    <div class="main" style="overflow-y:scroll;">
         <nav>
             <div class="logo">
                 <img src="images/podcastLogo.png" alt="podcastLogo" width="100" height ="100">
@@ -13,11 +15,25 @@
                 <ul>
                     <li><a class="Episodes" href="https://www.twitch.tv/lookingwiththeboys/videos">Episodes</a></li>
                     <li><a class="YoutubePage" href="#">Youtube</a></li>
-                    <li><a class="Cast" href="#">Cast</a></li>
+                    <li><a class="Cast" href="#CastDescriptions">Cast</a></li>
                     <li><a class="TwitchPage" href="https://www.twitch.tv/lookingwiththeboys">Twitch</a></li>
                 </ul>
             </div>
         </nav>
+
+        <div class="podcastDescription">
+            <p class="introDescription">
+                A comedic podcast about geek culture with co-hosts Tre'Vyon and Kaleb.
+            </p>
+            <p class="detailedDescription">WithTheBoysPodcast is a Twitch podcast where your co-hosts
+            Tre'Vyon and Kaleb discuss a multitude of topics ranging from who could beat Goku
+            to which dog food is best. Our schedule is to be determined but once it is solidified, we will
+            update you all.
+
+            The WithTheBoysPodcast is available on Twitch and Vod's are on Twitch
+            as well as Youtube.
+            </p>
+        </div>
 
         <div class="contentLinks">
             <ul>
@@ -36,6 +52,22 @@
                     </div>
                 </li>
             </ul>
+        </div>
+
+        <div id="CastDescriptions" class="CastDescriptions">
+            <div class="Treyinfo">
+                <img class="TreyBioImage" src="images/TreyBioImage.jpg" alt="TreyBioImage" width="162" height="288">
+                <p class ="TreyBio">A longtime enjoyer of rpgs and anime, Tre'Vyon is a programmer with a desire to
+                    have compelling and fun conversations, so he started the lookingwiththeboys podcast
+                    on Twitch alongside his friend Kaleb. He is the programmer for the website that
+                    your on right now and has around 2 years of web development experience.</p>
+            </div>
+            <div class="Kalebinfo">
+                <img class="KalebBioImage" src="images/kalebBioImage.jpg" alt="KalebBioImage" width="384" height="288">
+                <p class ="KalebBio">With a background in cybersecurity, networking, and the military, Kaleb loves 
+                    all things computers. He created lookingwiththeboys with his friend Tre'Vyon for his love of 
+                    interesting conversations and to have some fun.</p>
+            </div>
         </div>
     </div>
 </body>

@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    padding: 0;
+    padding: 0px;
     font-family: sans-serif;
 }
 .main{
@@ -8,18 +8,21 @@
     height: 100vh;
     position: relative;
     overflow: hidden;
-    background: rgb(83,31,125);
     background: radial-gradient(circle, rgba(83,31,125,1) 39%, rgba(31,36,125,1) 100%);
 }
 nav{
+    box-shadow: 0 2px 4px 0 rgba(255, 255, 255, 0.2);
+    background-color: rgb(34, 34, 34);    
     width: 90%;
     position: sticky;
-    margin: 20px 40px;
+    padding: 10;
+    padding-right: 130;
     z-index: 1;
     display: flex;
     align-items: center;
 }
 .logo{
+    position: relative;
     flex-basis: 20%;
 }
 .nav-links{
@@ -38,6 +41,7 @@ nav{
 .contentLinks{
     flex: 1;
     align-items: left;
+    margin: 20px 40px;
 }
 .contentLinks ul li a{
     color: white;
@@ -45,9 +49,41 @@ nav{
 .feature img{
     width: 70px;
 }
-.feature{
-    position: absolute;
-}
 .one{
     bottom: 100px;
+}
+.CastDescriptions{
+    width: 90%;
+    position: relative;
+    margin: 20px 40px;
+    z-index: 1;
+    display: flex;
+}
+
+.TreyBioImage{
+    position: relative;
+    left: 150px;
+}
+.CastDescriptions div{
+    margin: 50px 50px 50px 0px;
+}
+.CastDescriptions div p{
+    text-indent: 35;
+    margin: 10px 0px;
+    max-width: 500px;
+}
+.podcastDescription p{
+    position: relative;
+    max-width: 500;
+    align-items: center;
+    left: 450;
+    top: 100;
+}
+.detailedDescription{
+    font-family: 'Permanent Marker';
+}
+.introDescription{
+    margin: 10 0;
+    font-size: 25;
+    font-family: Ultra;
 }
