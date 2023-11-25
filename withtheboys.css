@@ -13,17 +13,16 @@
 nav{
     box-shadow: 0 2px 4px 0 rgba(255, 255, 255, 0.2);
     background-color: rgb(34, 34, 34);    
-    width: 90%;
+    width: 100%;
     position: sticky;
     padding: 10;
     padding-right: 130;
-    z-index: 1;
     display: flex;
     align-items: center;
 }
 .logo{
     position: relative;
-    flex-basis: 20%;
+    left: 50px;
 }
 .nav-links{
     flex: 1;
@@ -37,14 +36,20 @@ nav{
 .nav-links ul li a{
     color: white;
     text-decoration: none;
+    font-family: Verdana;
 }
 .contentLinks{
     flex: 1;
     align-items: left;
-    margin: 20px 40px;
+    margin: 20px 100px;
+}
+.contentLinks ul{
+    list-style-type: none;
 }
 .contentLinks ul li a{
-    color: white;
+    color: black;
+    font-size: 20;
+    font-family: Ultra;
 }
 .feature img{
     width: 70px;
@@ -53,11 +58,12 @@ nav{
     bottom: 100px;
 }
 .CastDescriptions{
-    width: 90%;
-    position: relative;
-    margin: 20px 40px;
+    background-color: rgb(34, 34, 34);
+    width: 100%;
+    margin: 0px 40px;
     z-index: 1;
     display: flex;
+
 }
 
 .TreyBioImage{
@@ -65,12 +71,32 @@ nav{
     left: 150px;
 }
 .CastDescriptions div{
-    margin: 50px 50px 50px 0px;
+    margin: 50px 50px 50px 50px;
 }
 .CastDescriptions div p{
+    color: white;
+}
+.TreyBio{
     text-indent: 35;
     margin: 10px 0px;
     max-width: 500px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.KalebBio{
+    text-indent: 35;
+    margin: 10px 0px;
+    max-width: 500px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.TreyName{
+    font-family: Ultra;
+    text-indent: 160;
+    font-size: 50;
+}
+.KalebName{
+    font-family: Ultra;
+    text-indent: 100;
+    font-size: 50;
 }
 .podcastDescription p{
     position: relative;
@@ -86,4 +112,12 @@ nav{
     margin: 10 0;
     font-size: 25;
     font-family: Ultra;
+}
+.titleScreen{
+    font-size: 50;
+    font-family: impact;
+    max-width: 400;
+    position: relative;
+    left: 100;
+    top: 40;
 }
