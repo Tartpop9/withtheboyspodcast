@@ -60,10 +60,9 @@ nav{
 .CastDescriptions{
     background-color: rgb(34, 34, 34);
     width: 100%;
-    margin: 0px 40px;
+    margin: 0px 0px;
     z-index: 1;
     display: flex;
-
 }
 
 .TreyBioImage{
@@ -71,7 +70,7 @@ nav{
     left: 150px;
 }
 .CastDescriptions div{
-    margin: 50px 50px 50px 50px;
+    margin: 50;
 }
 .CastDescriptions div p{
     color: white;
@@ -120,4 +119,10 @@ nav{
     position: relative;
     left: 100;
     top: 40;
+}
+.Socials{
+    margin: 50;
+}
+.Socials div p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
